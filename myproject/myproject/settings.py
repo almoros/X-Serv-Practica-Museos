@@ -53,10 +53,11 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'myproject.urls'
 
-TEMPLATES = [
+TEMPLATES = [ # Plantilla descargada de oswd.org.
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/jalmoros/Escritorio/X-Serv-Practica-Museos/myproject/Templates/coffee_n_cream'],
+        # 'DIRS': ['/home/jalmoros/Escritorio/X-Serv-Practica-Museos/myproject/Templates/coffee_n_cream'],
+        'DIRS': ['./Templates/coffee_n_cream'], # Así podremos ejecutarlo en cualquier equipo.
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
