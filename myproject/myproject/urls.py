@@ -14,7 +14,7 @@ urlpatterns = [
 	url(r'^museos/$', 'museos.views.museos'),
 	url(r'^museos/(\d*)/$','museos.views.museos_id'),
 	url(r'^about/','museos.views.about'),
-    url(r'^(.*)/xml','museos.views.xml'),
+    url(r'^(.*)/XML','museos.views.XML'),
 	url(r'^(.*)/$','museos.views.usuario'),
 	url(r'^$','museos.views.pag_ppal'),
 ]

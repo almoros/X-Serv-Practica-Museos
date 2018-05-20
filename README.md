@@ -8,7 +8,7 @@
 
  * USUARIO EN EL LABORATORIO: javieraf
 
- * USUARIO EN GITHUB:almoros
+ * USUARIO EN GITHUB: almoros
 
  * RESEÑAS DE LA PARTE OBLIGATORIA: Templates obtenidos de oswd.org y editado por mi.
 
@@ -17,4 +17,4 @@
     - Añadir números de páginas según cuántos museos seleccionados haya en /usuario.
 
 * URL DE VIDEO EN YOUTUBE:
-    - 
+    - https://www.youtube.com/watch?v=XmokNZAFqRA&feature=youtu.be

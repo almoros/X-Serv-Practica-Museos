@@ -56,8 +56,8 @@ ROOT_URLCONF = 'myproject.urls'
 TEMPLATES = [ # Plantilla descargada de oswd.org.
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        # 'DIRS': ['/home/jalmoros/Escritorio/X-Serv-Practica-Museos/myproject/Templates/coffee_n_cream'],
-        'DIRS': ['./Templates/coffee_n_cream'], # Así podremos ejecutarlo en cualquier equipo.
+        # 'DIRS': ['/home/jalmoros/Escritorio/X-Serv-Practica-Museos/myproject/Templates/wood'],
+        'DIRS': ['./Templates/wood'], # Así podremos ejecutarlo en cualquier equipo.
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -101,4 +101,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-STATIC_URL = os.path.join(BASE_DIR, "Templates/coffee_n_cream/")
+STATIC_URL = os.path.join(BASE_DIR, "Templates/wood/")
