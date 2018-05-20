@@ -544,7 +544,7 @@ def pag_ppal (request):
 def about(request):
 	pie_pagina = footer() # El footer tiene ke estar en todas las páginas.
 	Templates = get_template("about.html")
-	cuerpo =  u'<span><H4>Práctica realizada por Javier Almorós Fernandez.</H4></span>'
+	cuerpo =  u'<span><H4>Práctica realizada por Javier Almorós Fernández.</H4></span>'
 	cuerpo += u'<span><H5>Grado en Ingeniería de Sistemas de Telecomunicación.</H5></span><br>'
 	cuerpo += u'<span><FONT FACE="verdana">FUNCIONALIDAD:</FONT></span>'
 	cuerpo += '<br><ul style="list-style-type: circle">'
