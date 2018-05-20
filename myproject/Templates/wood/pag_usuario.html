@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+
+{% block Lista %}
+  <div class=Lista>
+    {{Lista|safe}}
+    {% if museos_selec.has_previous %}
+      <a href="?page={{ museos_selec.previous_page_number }}">previous</a>
+    {% endif %}
+    {{ museos_selec.number }} - {{ museos_selec.paginator.num_pages }}
+    {% if museos_selec.has_next %}
+      <a href="?page={{ museos_selec.next_page_number }}">next</a>
+    {% endif %}
+  </div>
+  <div class=Lista2>
+    {{Lista2|safe}}
+{% endblock %}
+
+{% block Log %}
+   {{Titulo_Pagina|safe}}
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block Todos%}
+  <a href="http://127.0.0.1:8000/">Inicio</a>
+{% endblock %}
+
+{% block Ayuda %}
+  <a href="http://127.0.0.1:8000/museos">Todos</a>
+{% endblock %}
+
+{% block Lista %}
+  <div class=cuerpo>
+    {{cuerpo|safe}}
+  </div>
+{% endblock%}
